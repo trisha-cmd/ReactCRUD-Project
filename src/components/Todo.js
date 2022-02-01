@@ -18,9 +18,9 @@ const Todo = ({ todos, completeTodo, removeTodo, updateTodo }) => {
     });
   };
 
-  if (edit.id) {
-    return <TodoForm edit={edit} onSubmit={submitUpdate} />;
-  }
+  // if (edit.id) {
+  //   return <TodoForm edit={edit} onSubmit={submitUpdate} />;
+  // }
 
   return todos.map((todo, index) => (
     <React.Fragment>
