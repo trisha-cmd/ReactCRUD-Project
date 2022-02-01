@@ -34,6 +34,7 @@ function TodoForm(props) {
             name="text"
             ref={inputRef}
             className="todo-input edit"
+            onChange ={handleChange}
           />
           <button onClick={handleSubmit} className="todo-button edit">
             Update
